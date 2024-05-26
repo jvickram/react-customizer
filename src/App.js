@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Input from './Component/Input';
-import Button from './Component/Button';
+import Login from './Screens/Login';
 
 function App() {
   return (
     <div className="App">
-      <Input />
-      <Button/>
+      <Login/>
     </div>
   );
 }
